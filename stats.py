@@ -5,8 +5,8 @@ def average(values):
     if not values:
         return 0.0
     total = 0
-    for v in values:
-        total += v
+    for i in range(1, len(values)):
+        total += values[i]
     return total / len(values)
 
 
